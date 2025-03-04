@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Promotion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(161, 4, 246);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .image-container img {
+            width: 400px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .text-container {
+            max-width: 500px;
+            padding-left: 50px;
+        }
+
+        .discount {
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: inline-block;
+        }
+
+        .text-container h1 {
+            font-size: 42px;
+            margin: 10px 0;
+        }
+
+        .text-container p {
+            font-size: 16px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: orange;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="zepto.jpeg" alt="Logo">
+            <span>ZEPTO<b style="color: rgb(255, 0, 195);"></b></span>
+        </div>
+        <div class="menu-icon">&#9776;</div>
+    </div>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="zepto2.jpg" alt="Food Image">
+        </div>
+        <div class="text-container">
+            <span class="discount">50% Off on All Products</span>
+            <h1>Enjoy Your Delicious Food</h1>
+            <p>
+                Zepto is an Indian quick-commerce startup that delivers groceries in 10 minutes. 
+                Founded in 2021, it operates through dark stores for fast order fulfillment. 
+                The platform offers essentials like groceries, dairy, and household items. 
+                Competing with Blinkit and Swiggy Instamart, Zepto is rapidly expanding across major cities.
+            </p>
+            <button class="btn">Explore Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACE Prep Promotion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(227, 4, 247);
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: rgb(245, 3, 245);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .menu-icon {
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 50px;
+            gap: 40px;
+        }
+
+        .feature {
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 60px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .feature p {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .menu-button {
+            margin-top: 20px;
+        }
+
+        .menu-button button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .menu-button button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="zepto3.png" alt="zepto Logo">
+        </div>
+        <div class="menu-icon">&#9776;</div>
+    </div>
+
+    <div class="container">
+        <div class="feature">
+            <img src="zepto4.webp" alt="Discount Voucher">
+            <h3>Discount Voucher</h3>
+            <p>Zepto offers exciting discount vouchers, giving users up to 50% off on groceries and essentials.</p>
+        </div>
+        <div class="feature">
+            <img src="zepto5.webp" alt="Fresh Healthy Food">
+            <h3>Fresh Healthy Food</h3>
+            <p>Zepto delivers fresh and healthy food, ensuring top-quality groceries and essentials at your doorstep in minutes.</p>
+        </div>
+        <div class="feature">
+            <img src="zepto6.webp" alt="Fast Home Delivery">
+            <h3>Fast Home Delivery</h3>
+            <p>Zepto ensures ultra-fast delivery, bringing groceries and essentials to your doorstep in just 10 minutes.</p>
+        </div>
+    </div>
+
+    <div class="menu-button">
+        <button>Our Menu</button>
+    </div>
+
+    <h2>Explore Our Menu</h2>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(242, 254, 11);
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background-color: rgb(242, 7, 195);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .menu-btn {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+
+        .menu-btn:hover {
+            background-color: darkgreen;
+        }
+
+        .food-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            justify-content: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .food-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="zepto11.jpg" alt="Logo">
+            <span><b>zepto</b> <span style="color: orange;">
+        </div>
+        <div class="menu-icon">&#9776;</div>
+
+    <div class="food-gallery">
+        <img src="zepto7.webp" alt="Food 1">
+        <img src="zepto8.webp" alt="Food 2">
+        <img src="zepto9.webp" alt="Food 3">
+        <img src="zepto10.webp"alt="Food 4">
+        <img src="zepto12.webp"alt="Food 5">
+        <img src="zepto13.webp"alt="Food 6">
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zepto Footer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e8f402;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px 50px;
+            background-color: #fdf1d4;
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .logo span {
+            background: #e74c3c;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+        }
+        .footer-column {
+            margin-right: 40px;
+        }
+        .footer-column h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-column ul li {
+            margin-bottom: 8px;
+        }
+        .footer-column ul li a {
+            text-decoration: none;
+            color: black;
+        }
+        .footer-column ul li a:hover {
+            text-decoration: underline;
+        }
+        .email-input {
+            padding: 8px;
+            width: 180px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+
+    <footer class="footer">
+        <div class="footer-column">
+            <!-- Updated Brand Name -->
+            <div class="logo">ZEPTO<span>
+        </div>
+        <div class="footer-column">
+            <h3>Main Links</h3>
+            <ul>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">New Order</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">News & Blogs</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Support</h3>
+            <input type="email" class="email-input" placeholder="Enter your Email...">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#">&#xf09a;</a> <!-- Facebook -->
+                <a href="#">&#xf099;</a> <!-- Twitter -->
+                <a href="#">&#xf16d;</a> <!-- Instagram -->
+                <a href="#">&#xf167;</a> <!-- YouTube -->
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
